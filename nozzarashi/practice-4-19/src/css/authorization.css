@@ -1,0 +1,62 @@
+@import url(./base.css);
+
+#chat-authorization-dialog {
+  width: 100%;
+  background: transparent;
+}
+
+.chat-authorization {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  background: radial-gradient(circle, #eeaecadc 0%, #94bce9d7 100%);
+  border-radius: 15px;
+  padding: 20px 14px;
+  border: 1px solid #6196d2;
+}
+
+.chat-authorization__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 70px;
+}
+
+.chat-authorization__close-button {
+  background: transparent;
+  padding: 4px 2px;
+}
+
+.chat-authorization__form {
+  display: flex;
+  flex-direction: column;
+}
+
+#authorization-info-message {
+  display: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.chat-authorization__form-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-authorization__input-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  gap: 5px;
+}
+
+.chat-authorization__form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}

@@ -1,0 +1,51 @@
+:root {
+  --color-black: #000000;
+  --color-secondary: #446baa;
+  --color-additional: #2358bd63;
+  --color-additional-2: #262424b1;
+
+  --color-messages: #4570b676;
+}
+
+body {
+  background: radial-gradient(circle, rgb(238 174 202 / 72%) 0%, rgb(148 187 233 / 74%) 100%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.wrapper {
+  padding: 0 10px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: transparent;
+}
+
+.close-btn {
+  background: transparent;
+  padding: 4px 2px;
+}
+
+.action-btn {
+  background: var(--color-messages);
+  padding: 7px;
+  border-radius: 4px;
+  color: var(--color-black);
+  width: 100%;
+  font-size: 16px;
+  max-height: 34px;
+}
+
+.input {
+  /* max-width: 245px; */
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--color-additional);
+  height: 32px;
+  padding: 8px;
+  font-size: 16px;
+}

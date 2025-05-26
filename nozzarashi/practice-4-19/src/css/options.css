@@ -1,0 +1,50 @@
+#chat-options-dialog {
+  width: 100%;
+  background: transparent;
+}
+
+.chat-options {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  background: radial-gradient(circle, #eeaecadc 0%, #94bce9d7 100%);
+  border-radius: 15px;
+  padding: 20px 14px;
+  border: 1px solid #6196d2;
+}
+
+.chat-options__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 70px;
+}
+
+.chat-options__change-name-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 10px;
+}
+
+#options-change-name-message {
+  display: none;
+  margin-top: 7px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.chat-options__input-title {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chat-options__change-name-button {
+  background: transparent;
+}

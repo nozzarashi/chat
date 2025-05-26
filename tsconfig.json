@@ -1,0 +1,19 @@
+{
+"compilerOptions": {
+"moduleResolution": "node",
+"outDir": "nozzarashi/practice-4-19/public/js",
+"target": "ESNext",
+"module": "ESNext",
+"esModuleInterop": true,
+"forceConsistentCasingInFileNames": true,
+"strict": true,
+"skipLibCheck": true,
+"removeComments": true,
+"noUnusedLocals": true, /* если в коде что то объявлено, но не используется, то возникнет ошибка (не касается глобальной области видимости*/
+"noUnusedParameters": true, /* ошибка, если заданные параметры функции не используются */
+"noImplicitReturns": true, /* если у функции тип возвращаемого значения отличается от void, то нужно не забывать указывать return something, иначе ошибка*/
+"allowUnreachableCode": false, /* ругается на недостижимый код */
+"pretty": true,
+},
+"exclude": [], /* данный параметр отключает компиляцию указанного по пути файла в .js (js файл не будет создан, обычно используется для файлов .ts с тестами, созданными типами итд*/
+}

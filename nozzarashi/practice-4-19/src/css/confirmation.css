@@ -1,0 +1,49 @@
+#chat-confirmation-dialog {
+  width: 100%;
+  background: transparent;
+}
+
+.chat-confirmation {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  background: radial-gradient(circle, #eeaecadc 0%, #94bce9d7 100%);
+  border-radius: 15px;
+  padding: 20px 14px;
+  border: 1px solid #6196d2;
+}
+
+.chat-confirmation__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+  gap: 12px;
+}
+
+.chat-confirmation__form {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+}
+
+#confirmation-info-message {
+  display: none;
+  margin-top: 7px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.chat-confirmation__input-title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chat-confirmation__input {
+  max-width: none;
+  font-size: 16px;
+}
